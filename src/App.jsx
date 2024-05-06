@@ -15,8 +15,8 @@ function App() {
   ]);
 
   const [authors, setAuthors] = useState([
-    { id: 1, name: 'Author 1', birthDate: '1990-01-01', biography: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { id: 2, name: 'Author 2', birthDate: '1995-02-01', biography: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },
+    { id: 1, name: 'Author 1', birthDate: '1990-01-01', biography: 'sample text of Author 1 biography' },
+    { id: 2, name: 'Author 2', birthDate: '1995-02-01', biography: 'sample text of Author 2 biography' },
   ]);
 
   const addBook = (book) => {
