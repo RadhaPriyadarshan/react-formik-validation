@@ -61,6 +61,7 @@ function App() {
           </Col>
           <Col md={11}>
             <Routes>
+              <Route path="/" element={<BookList books={books} deleteBook={deleteBook} editBook={editBook} />} />
               <Route path="/books" element={<BookList books={books} deleteBook={deleteBook} editBook={editBook} />} />
               <Route path="/authors" element={<AuthorList authors={authors} deleteAuthor={deleteAuthor} editAuthor={editAuthor} />} />
               <Route path="/books/add" element={<BookForm onSubmit={addBook} />} />
